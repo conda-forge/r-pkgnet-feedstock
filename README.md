@@ -1,11 +1,11 @@
-About r-pkgnet
-==============
+About r-pkgnet-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pkgnet-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/UptakeOpenSource/pkgnet, https://uptakeopensource.github.io/pkgnet/
 
 Package license: BSD_3_clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-pkgnet-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools from the domain of graph theory can be used to quantify the complexity and vulnerability to failure of a software package. That is the guiding philosophy of this package. 'pkgnet' provides tools to analyze the dependencies between functions in an R package and between its imported packages.
 
