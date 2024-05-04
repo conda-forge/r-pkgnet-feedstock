@@ -1,4 +1,4 @@
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pkgnet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pkgnet/pkgnet_{{ version }}.tar.gz
-  sha256: 7bbf5dab94463e6e07d1f51da5b9f161fd5b6ac91ef9e8ad7e0a2063f52d2b78
+  sha256: 24780b95496c0462b23da01e0ebafa25e9d2b3ffacb6fac3918b725e47db5283
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
