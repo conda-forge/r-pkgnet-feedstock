@@ -66,6 +66,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - jameslamb
     - conda-forge/r
 
 # Package: pkgnet
