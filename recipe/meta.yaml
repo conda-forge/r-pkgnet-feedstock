@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pkgnet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pkgnet/pkgnet_{{ version }}.tar.gz
-  sha256: 24780b95496c0462b23da01e0ebafa25e9d2b3ffacb6fac3918b725e47db5283
+  sha256: 69fcc936a8f3926ede6b2567481d4304bc6f7f88783f573378e396fb6f4a4c6e
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
