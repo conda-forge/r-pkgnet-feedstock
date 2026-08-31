@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/pkgnet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/pkgnet/pkgnet_{{ version }}.tar.gz
-  sha256: 69fcc936a8f3926ede6b2567481d4304bc6f7f88783f573378e396fb6f4a4c6e
+  sha256: e017e4876bbc8625957b62f1aaa52a73ef91362a832bb3a7e439ac91b610dd40
 
 build:
   number: 0
